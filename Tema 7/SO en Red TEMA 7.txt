@@ -1,0 +1,29 @@
+Red NAT "DNS" 
+192.168.1.0/24
+DHCP Activado
+
+NAT (Para conectar a internet)
+
+IPS:
+****
+
+SERVIDOR - 192.168.1.100
+CLIENTE UBUNTU - 192.168.1.10
+CLIENTE WINDOWS - 192.168.1.15
+PUERTA DE ENLACE - 192.168.1.1
+DNS - 192.168.1.1 - 8.8.8.8
+
+En /etc/ssh/sshd_config
+PermitRootLogin yes
+
+SERVIDOR:
+*********
+/etc/hosts
+127.0.1.1	servidor
+
+192.168.1.10	ubuntu
+192.168.1.15	windows <--- NO FUNCIONA
+
+Verificar /etc/hostname de cliente ubuntu
+
+Si da fallo PuTTY usar --> Category - Window - Fonts - Monospace

@@ -1,0 +1,7 @@
+Prac T7.1: Creación de usuarios
+
+Sube un PDF mostrando los pasos para dar de alta dos usuarios (elige tu los nombres) y posteriormente borrar uno de ellos:
+
+    En Ubuntu Desktop utilizando la interfaz gráfica.
+    En Ubuntu Server utilizando línea de comandos.
+    En Ubuntu Server utilizando Webmin.

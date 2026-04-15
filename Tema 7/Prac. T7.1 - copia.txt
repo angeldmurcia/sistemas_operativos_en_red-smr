@@ -1,0 +1,13 @@
+Prac T7.2: Gestión de usuarios
+
+Sube un PDF mostrando los pasos para realizar las siguientes tareas utilizando Webmin en nuestro Ubuntu Server:
+
+    Crea los usuarios ususmr01 y ususmr02.
+    Configúralos para que la contraseña deba cambiarse al menos cada 90 días y avise cuando falte una semana.
+    Crea el grupo informática y añade a los usuarios recién creados.
+    Añade los dos usuarios recién creados al grupo dialout y backup.
+    Cambia la contraseña del usuario ususmr01.
+    Desactiva el usuario ususmr02.
+    Cambia la shell del usuario ususmr01 para que sea bash y la de ususmr02 para que sea sh.
+    Inicia sesión con el usuario ususmr01 a través de ssh y posteriormente con ususmr02. ¿qué pasa?.
+    Muestra los inicios de sesión desde Webmin, del usuario ususmr01 y ususrm02.
