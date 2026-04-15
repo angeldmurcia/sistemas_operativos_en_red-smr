@@ -1,0 +1,17 @@
+Prac T5.4: script unidades de red
+
+    Crea una carpeta para el departamento CONTABILIDAD en el directorio raíz del disco duro de Windows Server 2016.
+
+    Compartir esa carpeta con control total para todos los usuarios del grupo Contabilidad.
+
+    Crea en la carpeta SYSVOL un fichero por lotes llamado contabilidad.bat que asigne a la carpeta de red Contabilidad que acabas de crear la unidad M:
+
+    Modifica la plantilla del departamento de contabilidad para que cuando el usuario entre, se ejecute el fichero por lotes contabilidad.bat.
+
+    Crea un usuario del departamento Contabilidad basado en la plantilla que acabas de modificar.
+
+    Entra desde la máquina Windows 10 como el usuario de contabilidad que acabas de crear. Accede a MI PC y comprueba que el usuario ve una unidad z: y una unidad m:.
+
+    Escribe en cada una de las dos unidades un fichero llamado ‘contabilidad’.
+
+    Desde el servidor Windows 2016 server comprueba que en la carpeta Contabilidad y que en la carpeta Personales, está el fichero que ha creado el usuario de contabilidad.

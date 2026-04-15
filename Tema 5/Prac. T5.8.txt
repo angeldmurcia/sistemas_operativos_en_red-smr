@@ -1,0 +1,37 @@
+Prac T5.8: relaciones de confianza
+
+    1. Clonad o instalar de cero un sistema operativo Windows 2016 server. A las máquinas clonadas hay que desinstalarles el Active directory.
+
+    2. Poned a la segunda máquina Windows 2016 server la siguiente configuración:
+
+        a. Nombre de máquina: otroservXX donde XX es vuestro número de lista.
+
+        b. Configurad la dirección IP de la siguiente forma:
+
+            i. Dirección IP: 192.168.44.1YY donde YY es vuestro número de lista +50
+
+            ii. Máscara: 255.255.255.0
+
+            iii. Puerta de enlace: 192.168.44.1
+
+            iv. DNS: 127.0.0.1
+
+            v. DNS secundario: 192.168.44.1
+
+        c. La máquina virtual tiene que estar en Bridge.
+
+    3. Instala el active directory y crea un dominio nuevo en un bosque nuevo llamado smrXX.es donde XX es vuestro número de lista.
+
+    4. Crear en el nuevo dominio smrXX.es una unidad organizativa llamada alumnos y dentro de ella crea un grupo llamado alumnos.
+
+    5. Dentro de la unidad organizativa alumnos crea un alumno con tu nombre que pueda acceder desde cualquier equipo, a cualquier hora y que pertenezca al grupo alumnos.
+
+    6. Accede al administrador DNS del servidor otroservXX y crea un reenviador condicional con la ip del otro servidor 2016servXX. 
+
+    7. Accede al administrador DNS del servidor 2016servXX y crea un reenviador condicional con la ip del servidor otroservXX.
+
+    8. Accede a la herramienta Dominios y Confianzas de active directory en el servidor otroservXX y crea una relación de confianza bidireccional entre los dominios dominioXX.com y smrXX.es
+
+    9. Comparte un recurso del servidor 2016servXX con el usuario que has creado en el ejercicio 5 y que pertenece al dominio smrXX.es.
+
+    10. Crea un recurso en tu servidor otroservXX y comparte ese recurso con un usuario del departamento de dirección del dominio dominioXX.com.

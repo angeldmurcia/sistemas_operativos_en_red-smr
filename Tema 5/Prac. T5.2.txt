@@ -1,0 +1,37 @@
+Prac T5.2: perfiles obligatorios
+
+Presenta la memoria de realización del ejercicio en PDF.
+
+    1. Crear un perfil obligatorio. 
+
+        a. Crear dentro de ALMACEN un usuario llamado almaobligatorio.
+
+        b. Ponerle a ese usuario un perfil móvil que se almacenará en \\tuservidor\perfiles\%username% donde tuservidor será el nombre de vuestro servidor Windows 2016.
+
+        c. Entrar desde uno de los clientes Windows 10 con el usuario almaobligatorio que creaste en el apratado a.
+
+        d. Apagar la máquina Windows 10.
+
+        e. En Windows 2016, cambiar el propietario de la carpeta almaobligatorio.V5 por el Administrador del dominio.
+
+        f. Entrar a la carpeta almaobligatorio.V5 y configura la carpeta para que se muestren las extensiones de los ficheros y se vean los ficheros ocultos y del sistema.
+
+        g. Cambia el propietario del fichero NTUSER.DAT para que sea el Administrador. 
+
+        h. Añade permisos sobre el fichero NTUSER.DAT al usuario Administrador.
+
+        i. Modifica la extensión del fichero NTUSER.DAT por NTUSER.MAN.
+
+        j. Poner de nuevo al usuario almaobligatorio como propietario del fichero NTUSER.MAN y borra los permisos que tenía el usuario administrador sobre ese fichero.
+
+        k. Poner de nuevo al usuario almaobligatorio como propietario de la carpeta almaobligatorio.v5 y sus subcarpetas. Darle control total a ese usuario.
+
+        l. Arranca de nuevo la misma máquina cliente Windows 10 que arrancaste en el apartado c y entra con el usuario de almacén almaobligatorio.
+
+        m. Cambia el fondo de escritorio, seleccionando una imagen, añade un acceso directo a la calculadora de windows y al explorer en el escritorio. Pulsa sobre Mi Pc botón derecho y selecciona Propiedades y Opciones avanzadas. Pulsa en Perfiles y comprueba que el usuario tiene un perfil obligatorio.
+
+        n. Añade un documento llamado “obligatorio” en Mis documentos.
+
+        o. Reinicia la máquina Windows 10 y entra con el usuario que has creado, comprueba que las modificaciones hechas antes no están y que todo está como la primera vez que entraste.
+
+

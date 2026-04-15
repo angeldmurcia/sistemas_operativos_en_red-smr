@@ -1,0 +1,29 @@
+Prac T5.6: memoria y servicios
+
+1.- Optimización del uso de memoria.
+
+    Añade un nuevo disco a tu máquina virtual, de 5 GB.
+
+    Formatea el disco como NTFS.
+
+    Configura tu memoria virtual para que el fichero de paginación se guarde en ese disco duro y tenga un tamaño de 4 GB.
+
+2.- Servicios:
+
+    Entra en el servidor 2016 con el usuario administrador.
+
+    Muestra la lista de servicios.
+
+    Accede al servicio Optimizador de unidades y dime cual es su estado y su tipo de inicio. Si estuviese arrancado, para el servicio.
+
+    Agrega un nuevo disco duro SATA a tu máquina virtual de 1GB. Formatea el disco y Desfragmentalo.
+
+    Accede al servicio Optimizador de unidades de disco y dime lo que ha ocurrido.
+
+    Accede al servicio Plug and Play y dime cual es su estado y su tipo de inicio. ¿Puedes cambiar el estado de este servicio?
+
+    Accede al servicio Cliente de DHCP y dime cual es su estado y su tipo de inicio.
+
+    Modifica el estado del servicio parándolo y cambia su tipo de inicio a Deshabilitado. Configura la dirección Ip de tu equipo para que sea asignada dinámicamente. ¿Qué ocurre?
+
+    Accede al servicio Windows Update y dime cual es su estado y su tipo de inicio. Detén el servicio si no lo estuviera y deshabilítalo.

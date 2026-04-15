@@ -1,0 +1,29 @@
+Prac T5.1: perfiles móviles
+
+Presenta la memoria de la elaboración de esta práctica en PDF.
+
+    Crea para los usuarios de MANTENIMIENTO un perfil móvil.
+
+        Para ello, crea en el directorio raíz de la unidad C: del servidor, una carpeta llamada perfiles.
+
+        Comparte la carpeta perfiles quitando los permisos a todos los usuarios que aparezcan y añadiendo a los usuarios del dominio con control total.
+
+        Modifica la plantilla de mantenimiento para asignar un perfil móvil a los usuarios que se creen a partir de ahora.: \\tuservidor\perfiles\%username% donde tu servidor será el nombre de tu equipo Windows server.
+
+        Crea un nuevo usuario de mantenimiento basado en la plantilla que acabas de modificar.
+
+        Accede a su pestaña Perfiles, para ver lo que aparece.
+
+        Entra desde uno de los equipos clientes Windows 10 como el nuevo usuario.
+
+        Cambia el fondo de escritorio, y añade un acceso directo a la calculadora y al explorer en el escritorio. Entra en el navegador de Windows y añade la página https://www.murciaeduca.es/iesfranciscosalzillo/sitio/ a favoritos.
+
+        Añade un documento llamado “win1” en Mis documentos.
+
+        Apaga el equipo Windows 10.
+
+        Arranca el otro cliente Windows 10.
+
+        Entra en Windows 10 con el usuario de mantenimiento que has creado previamente y comprueba que te carga el perfil desde el servidor (es decir, ves todos los cambios que ha realizado el usuario cuando entró desde el otro equipo cliente).
+
+        Visualiza los perfiles de usuario en el servidor

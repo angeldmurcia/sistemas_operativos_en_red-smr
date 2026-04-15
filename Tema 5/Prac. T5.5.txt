@@ -1,0 +1,21 @@
+Prac T5.5: cuotas de disco
+
+    Asigna las siguientes cuotas de disco para los usuarios de cada departamento.
+
+    Para los usuarios del grupo contabilidad, le estableceremos una cuota de disco que sea de 1024 KB, generando un aviso cuando le quede un 10% para alcanzar el límite (900 KB).
+
+    A los usuarios de grupo almacen, les asignaremos una cuota de disco de 3MB y se generará un aviso cuando le quede un 20% para alcanzar el límite. (2,6 MB).
+
+    A los usuarios del grupo mantenimiento no se les asignarán cuotas de disco.
+
+    Para los usuarios del grupo dirección pondremos una cuota de disco de 1GB, sin generar aviso al llegar a un límite concreto.
+
+    Crearemos un evento para que avise al usuario cada vez que llegue al límite de su espacio en disco y otro para cuando no le quede nada de espacio.
+
+    Iniciaremos sesión con algún usuario de contabilidad, copiaremos varios archivos en su carpeta personal y comprobaremos que las cuotas de disco hacen su función.
+
+        Primero ver lo que ocurre cuando se graba información pero no se alcanza el límite,
+
+        después graba información para alcanzar el límite para que avise
+
+        y después sobrepasa la cuota de disco.

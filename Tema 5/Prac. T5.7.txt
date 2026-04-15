@@ -1,0 +1,11 @@
+Prac T5.7: programador de tareas
+
+    Crea una nueva tarea llamada “hola”. Esta tarea enviará un mensaje llamado Hola cuyo contenido será “Bienvenido a Windows 2016”, cuando el usuario inicie sesión.
+
+    Cierra la sesión de usuario en el servidor y vuelve a entrar para ver si visualizas el mensaje.
+
+    Crea una nueva tarea llamada “Explorador”. Esta tarea abrirá el programa “Internet Explorer” una única vez el miércoles 25 de noviembre a las 13:30.
+
+    Crea una nueva tarea llamada “defragmenter”. Esta tarea defragmentará el disco el último día de cada mes de Enero a Junio y de Septiembre a Diciembre.
+
+    En vuestra máquina real Windows 10, crea una nueva tarea llamada “apagar” que apague el equipo todos los días de lunes a viernes a las 14:30. Si ya la tenéis programada, hacer las capturas de pantalla que muestren las pestañas general, desencadenador y acción de la tarea.

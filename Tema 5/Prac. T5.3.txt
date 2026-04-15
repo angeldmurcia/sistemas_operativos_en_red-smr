@@ -1,0 +1,21 @@
+Prac T5.3: carpetas personales
+
+Subid el la memoria de realización del ejercicio con capturas en PDF.
+
+    1. Crea una carpeta Personales en el directorio raíz del disco duro de Windows Server 2016.
+
+    2. Compartir la carpeta con control total para todos los usuarios del dominio.
+
+    3. Modifica las plantillas de todos los departamentos (contabilidad, almacen, mantenimiento y dirección) para que se cree una carpeta personal para cada usuario con su nombre y se le asigne la letra z: a esa carpeta personal.
+
+    4. Crea un usuario basado en la plantilla almacen.
+
+    5. Arranca la máquina Windows 10 y entra al dominio con el usuario de almacen que acabas de crear. Pulsa sobre Mi Pc y comprueba que visualizas una unidad z:.
+
+    6. Crea un documento llamado ‘personal’ dentro de la unidad z:
+
+    7. Desde el servidor Windows 2016 server accede a la carpeta Personales del disco duro y comprueba que se ha creado una carpeta con el nombre del usuario de almacen que has creado y con el que has entrado y comprueba que el documento ‘personal’ que ha creado el usuario, realmente se ha grabado en el servidor y no en la máquina 10.
+
+    8. Como administrador en Windows 2016, cambia los permisos de la carpeta que tiene el nombre del usuario de almacen y que se ha creado dentro de la carpeta Personales, para que sólo el usuario de almacen y los administradores tengan permiso de lectura y escritura.
+
+
