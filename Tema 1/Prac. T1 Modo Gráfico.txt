@@ -1,0 +1,21 @@
+Prepara un documento con capturas de pantalla explicando el proceso de resolución del siguiente ejercicio y entrégalo en PDF junto con la plantilla adjunta de datos de instalación del equipo.
+
+    Prepara una máquina virtual para instalar en ella un sistema operativo Windows 2016 server. Crea la máquina virtual con los siguientes requerimientos hardware.
+
+        2 GB de RAM
+
+        Un disco duro de 40 GB
+
+        El resto de requerimientos son los que establece por defecto VirtualBox
+
+    Instala el SO siguiendo las siguientes indicaciones:
+
+        Hay que instalar Windows 2016 server Standard versión completa.
+
+        La contraseña para el administrador será Smr2.
+
+    Comprueba que el sistema operativo arranca de forma correcta y que puedes ver todos los dispositivos de almacenamiento creados en el proceso de instalación. Y comprueba el sistema de archivos de cada unidad.
+
+    Rellena la tabla de configuración expuesta en este tema para el sistema operativo instalado. Solamente rellenarás los datos del procedimiento y proceso de instalación, sin ser necesario rellenar el resto de datos como las impresoras, configuración de red, etc.
+
+    Actualiza tu equipo con las últimas actualizaciones. Configura las actualizaciones del equipo para que se descarguen y nos ofrezcan la opción de instalarlas una vez descargadas.

@@ -1,0 +1,24 @@
+Prepara un documento con capturas de pantalla explicando el proceso de resolución del siguiente ejercicio y entrégalo en PDF .
+
+Utiliza la guía para instalación de windows 2016 server EN MODO TEXTO mostrada en el libro de somebooks.
+
+    Prepara una máquina virtual para instalar en ella un sistema operativo Windows 2016 server EN MODO TEXTO. Crea la máquina virtual con los siguientes requerimientos hardware.
+
+        1 GB de RAM
+
+        Un disco duro de 40 GB
+
+        El resto de requerimientos son los que establece por defecto VirtualBox
+
+    Instala el SO siguiendo las siguientes indicaciones:
+
+        Hay que instalar Windows 2016 server Standard versión completa.
+
+        La contraseña para el administrador será Smr2.
+
+    Comprueba que el sistema operativo arranca de forma correcta y que puedes ver todos los dispositivos de almacenamiento creados en el proceso de instalación. Y comprueba el sistema de archivos de cada unidad.
+
+    Apaga el equipo utilizando el comando apropiado.
+
+
+http://somebooks.es/?p=5015&page=8
